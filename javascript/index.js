@@ -48,7 +48,8 @@ function updateCity(event) {
           "h:mm:ss [<small>]A[</small>]"
         )}</div>
           </div>
-        </div>`;
+        </div>
+        <a class="back-arrow" href="/"><</a>`;
 }
 
 let citiesSelectElement = document.querySelector("#city");

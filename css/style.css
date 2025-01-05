@@ -13,10 +13,11 @@ h1 {
   padding-bottom: 39px;
 }
 h1 span {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
   opacity: 0.4;
   font-weight: 200;
+  letter-spacing: 4px;
 }
 h2 {
   margin: 0 0 5%;
@@ -33,7 +34,7 @@ select {
 .container {
   max-width: 1440px;
   background: #b2d190;
-  padding: 10px;
+  padding: 10px 10px 17px 10px;
   margin: 30px auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 19px 0px;
   border-radius: 20px;
@@ -69,6 +70,14 @@ select {
 .date {
   opacity: 0.3;
   font-size: 12px;
+}
+
+.back-arrow {
+  background: black;
+  border-radius: 90px;
+  color: #b2d190;
+  padding: 10px 16px;
+  text-decoration: none;
 }
 
 footer {
