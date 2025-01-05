@@ -27,8 +27,12 @@ h2 {
 select {
   display: block;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 10px;
+  font-family: "Orbitron", serif;
+  background-color: #2b3125;
+  border: 1px #2b3125;
+  color: #b2d190;
 }
 
 .container {
@@ -84,4 +88,8 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #b2d190;
+}
+footer a {
+  color: #b2d190;
+  opacity: 0.3;
 }
