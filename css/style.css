@@ -98,14 +98,19 @@ footer a {
 
 @media (max-width: 600px) {
   h2 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .time {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
   }
   .time small {
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #b2d190;
   }
 }
