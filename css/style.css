@@ -95,3 +95,17 @@ footer a {
   color: #b2d190;
   opacity: 0.5;
 }
+
+@media (max-width: 375px) {
+  h2 {
+    font-size: 16px;
+  }
+  .time {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .time small {
+    font-size: 14px;
+    vertical-align: middle;
+  }
+}
